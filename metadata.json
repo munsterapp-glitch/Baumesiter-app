@@ -1,0 +1,9 @@
+{
+  "name": "Baumeister App",
+  "description": "Mobile-First Bau- und Zeiterfassungs-App für Bauunternehmen mit Aufgabenverwaltung, GPS-Karten, Fotodokumentation und PDF-Monatsberichten.",
+  "requestFramePermissions": [
+    "geolocation",
+    "notifications"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bgGrad)"/>
+  <rect x="24" y="24" width="464" height="464" rx="72" fill="none" stroke="#F59E0B" stroke-opacity="0.15" stroke-width="4"/>
+  
+  <!-- Blueprint Grid Subtle Lines -->
+  <path d="M64 160h384 M64 256h384 M64 352h384 M160 64v384 M256 64v384 M352 64v384" stroke="#334155" stroke-width="2" stroke-opacity="0.3"/>
+
+  <!-- Construction Helmet / Builder Icon -->
+  <g transform="translate(56, 40)">
+    <!-- Helmet Dome -->
+    <path d="M80 260 C80 150 160 110 200 110 C240 110 320 150 320 260 Z" fill="url(#amberGrad)"/>
+    <!-- Center Crest -->
+    <path d="M185 96 C185 96 200 88 215 96 L210 260 L190 260 Z" fill="#F59E0B"/>
+    <path d="M192 105 L208 105 L205 255 L195 255 Z" fill="#FEF3C7"/>
+    <!-- Brim -->
+    <path d="M50 260 C50 248 70 248 80 248 L320 248 C330 248 350 248 350 260 C350 274 330 280 200 280 C70 280 50 274 50 260 Z" fill="#D97706"/>
+    <path d="M65 260 L335 260 C325 272 275 275 200 275 C125 275 75 272 65 260 Z" fill="#92400E"/>
+    <!-- Flashlight / Badge accent -->
+    <circle cx="200" cy="180" r="16" fill="#0F172A"/>
+    <circle cx="200" cy="180" r="11" fill="#38BDF8"/>
+    <!-- Hammer & Ruler crossed subtly underneath -->
+    <path d="M120 330 L280 330" stroke="#F59E0B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M150 330 L150 318 M190 330 L190 322 M230 330 L230 318 M270 330 L270 322" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
